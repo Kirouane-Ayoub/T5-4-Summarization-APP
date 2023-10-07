@@ -1,9 +1,7 @@
 
 #  Text Summarization App
-
 + **Model Name**: T5-4-Summarization
 + **Architecture**: Encoder-Decoder (T5)
-
 ## Model Description
 T5-4-Summarization is a fine-tuned version of the T5 model designed for the task of text summarization. T5 (Text-to-Text Transfer Transformer) is a versatile encoder-decoder model that can handle a wide range of text generation tasks by converting them into a text-to-text format. It has been pre-trained on a variety of tasks, including supervised and self-supervised training.
 
@@ -41,14 +39,14 @@ from transformers import pipeline
 pipe = pipeline("summarization", model="ayoubkirouane/T5-4-Summarization")
 
 text = """
-put the text you want to summarize here .
+put the text you want to summarize here.
 """
 
 pipe(text)[0]["summary_text"]
 
 ```
 
-# Getting Started with the APP : 
+## Getting Started with the APP : 
 
 ```
 pip install -r requirements.txt
