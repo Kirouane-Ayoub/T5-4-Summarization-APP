@@ -54,3 +54,8 @@ pipe(text)[0]["summary_text"]
 pip install -r requirements.txt
 python app.py
 ```
++ You can check The Demo from here: **https://huggingface.co/spaces/ayoubkirouane/T5-4-Summarization**
+  
+![Screenshot at 2023-10-07 19-19-26](https://github.com/Kirouane-Ayoub/T5-4-Summarization-APP/assets/99510125/aaa3a7e2-0931-410d-ade8-c7c60317e6b5)
+
++ Developed by **Kirouane Ayoub**
